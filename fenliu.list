@@ -2,7 +2,7 @@
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
 # > 更新时间  2022.11.05
 # > 快手
- # HOST-SUFFIX,yximgs.com, reject(这个会误杀头像和直播 已注释）
+ #HOST-SUFFIX,yximgs.com, reject(这个会误杀头像和直播 已注释）
  #HOST-SUFFIX,e.kuaishou.com, reject
  #HOST,js-ad.a.yximgs.com, reject
  #HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
@@ -1149,12 +1149,12 @@ HOST-SUFFIX,cm.adcommon.bilibili.com, reject
 HOST-SUFFIX,cm.game.bilibili.com, reject
 HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 # > 快手
-HOST-SUFFIX,yximgs.com, reject
-HOST-SUFFIX,e.kuaishou.com, reject
-HOST,js-ad.a.yximgs.com, reject
-HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
-HOST-SUFFIX,cm.ad.gifshow.com, reject
-HOST-SUFFIX,cm.kwad.com, reject
+#HOST-SUFFIX,yximgs.com, reject
+#HOST-SUFFIX,e.kuaishou.com, reject
+#HOST,js-ad.a.yximgs.com, reject
+#HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
+#HOST-SUFFIX,cm.ad.gifshow.com, reject
+#HOST-SUFFIX,cm.kwad.com, reject
 # > 人民日报
 # > 蓝基因（弹窗还在，需要手动关闭）
 host-keyword,medicine.lanjiyin.com.cn, reject
